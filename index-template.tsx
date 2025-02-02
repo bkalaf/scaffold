@@ -18,5 +18,6 @@ export type I@@TYPENAME@@ = {
 const helper = createColumnHelper<I@@TYPENAME@@>();
 
 export const columns: ColumnDef<I@@TYPENAME@@, any>[] = [
-    col.actions(helper)    
+    col.actions(helper),
+    col._id()
 ];
