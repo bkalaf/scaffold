@@ -1,5 +1,5 @@
 import { ObjectId } from 'mongodb';
-import { @@TYPENAME@@ } from '@app/schema/@@COLLECTIONNAME@@';
+import { I@@TYPENAME@@ } from '@app/schema/@@COLLECTIONNAME@@';
 import $to from '@app/schema/xforms/$to';
 import $from from '@app/schema/xforms/$from';
 
