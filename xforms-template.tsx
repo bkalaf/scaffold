@@ -1,7 +1,7 @@
 import { ObjectId } from 'mongodb';
-import { I@@TYPENAME@@ } from '@app/schema/@@COLLECTIONNAME@@';
-import $to from '@app/schema/xforms/$to';
-import $from from '@app/schema/xforms/$from';
+import { I@@TYPENAME@@ } from '../@@COLLECTIONNAME@@';
+import $to from '../../util/xforms/$to';
+import $from from '../../util/$from';
 
 export type I@@TYPENAME@@ = {
     _id: ObjectId;

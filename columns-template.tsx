@@ -1,7 +1,7 @@
 import {createColumnHelper, ColumnDef} from '@tanstack/react-table';
 import dayjs from 'dayjs';
-import col from '@app/schema/col';
-import {I@@TYPENAME@@} from '@app/schema/@@COLLECTIONNAME@@';
+import {col} from '../col';
+import {I@@TYPENAME@@} from '../@@COLLECTIONNAME@@';
 
 const helper = createColumnHelper<I@@TYPENAME@@>();
 
