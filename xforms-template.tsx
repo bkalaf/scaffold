@@ -1,12 +1,6 @@
-import { ObjectId } from 'mongodb';
 import { I@@TYPENAME@@ } from '../@@COLLECTIONNAME@@';
-import $to from '../../util/xforms/$to';
-import $from from '../../util/$from';
-
-export type I@@TYPENAME@@ = {
-    _id: ObjectId;
-    owner: string;
-};
+import {$to} from '../../util/to';
+import {$from} from '../../util/from';
 
 export function @@COLLECTIONNAME@@Convert({
     _id,
