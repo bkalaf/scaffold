@@ -12,9 +12,8 @@ export function @@COLLECTIONNAME@@Convert({
     };
 }
 
-export function @@COLLECTIONNAME@@Transform({ _id, owner, ...rest }: I@@TYPENAME@@) {
+export function @@COLLECTIONNAME@@Transform({ _id, owner }: I@@TYPENAME@@) {
     return {
-        ...rest,
         _id: $from.OID(_id),
         owner: owner ?? 'admin@junk-in-the-trunk.com'
     };
